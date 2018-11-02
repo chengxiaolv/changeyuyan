@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p data-locale="p1" onclick="getal()"></p>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<!-- 加载语言包文件 -->
+<script src="../js/jquery.i18n.properties.js"></script>
+<script src="../js/common_i18n.js"></script>
+<script>
+    function getal(){
+        alert($.i18n.prop("old")+"：404")
+    }
+</script>
